@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5975F6A2-E6A6-44F6-AEAF-F660BEDA9A2F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="AstarPathfindingProject">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\AstarPathfindingProject.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="ES2">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\ES2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\..\..\..\Games\Jalopy v1.105\Jalopy_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbandonCarC.cs" />
+    <Compile Include="ActionRelayC.cs" />
+    <Compile Include="AICarRelayC.cs" />
+    <Compile Include="AlarmClockC.cs" />
+    <Compile Include="AnimatedClock.cs" />
+    <Compile Include="AntiRoll.cs" />
+    <Compile Include="AntiRollBar.cs" />
+    <Compile Include="AssignDebug.cs" />
+    <Compile Include="AssignLogic2.cs" />
+    <Compile Include="AttachOnCollision_QR2.cs" />
+    <Compile Include="AutoRotateObject.cs" />
+    <Compile Include="BasicRopeTypes.cs" />
+    <Compile Include="BedLogicC.cs" />
+    <Compile Include="BendingSegment.cs" />
+    <Compile Include="BoltLogicC.cs" />
+    <Compile Include="BonnetHandleLogicC.cs" />
+    <Compile Include="BonnetLogicC.cs" />
+    <Compile Include="BootInventoryC.cs" />
+    <Compile Include="BootNavRelayC.cs" />
+    <Compile Include="BorderGuardC.cs" />
+    <Compile Include="BorderLogicC.cs" />
+    <Compile Include="BottleLidLogicC.cs" />
+    <Compile Include="BoxContentsC.cs" />
+    <Compile Include="BoxLogicC.cs" />
+    <Compile Include="BreadBinDoorC.cs" />
+    <Compile Include="BuyHomeStorageC.cs" />
+    <Compile Include="CameraFollowController.cs" />
+    <Compile Include="CameraFollow_QR2.cs" />
+    <Compile Include="CamRotate.cs" />
+    <Compile Include="CarCollisionsC.cs" />
+    <Compile Include="CarControleScriptC.cs" />
+    <Compile Include="CarDamage2.cs" />
+    <Compile Include="CarHornC.cs" />
+    <Compile Include="CarJackC.cs" />
+    <Compile Include="CarJackReceiverC.cs" />
+    <Compile Include="CarJackRelayC.cs" />
+    <Compile Include="CarLoadSaveC.cs" />
+    <Compile Include="CarLogicC.cs" />
+    <Compile Include="CarPerformanceC.cs" />
+    <Compile Include="CatalogueBuyButtonC.cs" />
+    <Compile Include="CataloguePagePurchaseRelayC.cs" />
+    <Compile Include="ChatInput.cs" />
+    <Compile Include="CigLighterC.cs" />
+    <Compile Include="CloseBorderC.cs" />
+    <Compile Include="ColliderBriefcaseLogicC.cs" />
+    <Compile Include="ColorClass.cs" />
+    <Compile Include="CraneControl_QR2.cs" />
+    <Compile Include="CrowbarLogicC.cs" />
+    <Compile Include="Csharp_Example.cs" />
+    <Compile Include="CursorHit.cs" />
+    <Compile Include="CurtainsLogicC.cs" />
+    <Compile Include="CustomCursor.cs" />
+    <Compile Include="DebugController.cs" />
+    <Compile Include="DebugRay.cs" />
+    <Compile Include="Decal.cs" />
+    <Compile Include="DegubFly.cs" />
+    <Compile Include="DemoGUI.cs" />
+    <Compile Include="DemoHealthBar.cs" />
+    <Compile Include="DestroyTimerScriptC.cs" />
+    <Compile Include="DG\Tweening\DOTweenCYInstruction.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleAudio.cs" />
+    <Compile Include="DG\Tweening\DOTweenModulePhysics.cs" />
+    <Compile Include="DG\Tweening\DOTweenModulePhysics2D.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleSprite.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleUI.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="DG\Tweening\DOTweenModuleUtils.cs" />
+    <Compile Include="DialogueStuffsC.cs" />
+    <Compile Include="DirectorC.cs" />
+    <Compile Include="DNC_SpectateCam.cs" />
+    <Compile Include="DNC_Test.cs" />
+    <Compile Include="DoorExitLogicC.cs" />
+    <Compile Include="DoorKnockingC.cs" />
+    <Compile Include="DoorLogicC.cs" />
+    <Compile Include="DownloadTexture.cs" />
+    <Compile Include="DragRigidbodyC.cs" />
+    <Compile Include="EClientGameState.cs" />
+    <Compile Include="Elastic.cs" />
+    <Compile Include="EngineComponentC.cs" />
+    <Compile Include="EngineComponentsCataloguePageC.cs" />
+    <Compile Include="EngineRepairKitC.cs" />
+    <Compile Include="EnvelopContent.cs" />
+    <Compile Include="EnvironmentDoorsC.cs" />
+    <Compile Include="EquipItems.cs" />
+    <Compile Include="EquipRandomItem.cs" />
+    <Compile Include="ES2Init.cs" />
+    <Compile Include="ES2UniqueID.cs" />
+    <Compile Include="ES2_AudioClip.cs" />
+    <Compile Include="ES3.cs" />
+    <Compile Include="EscCheckerC.cs" />
+    <Compile Include="ExampleDragDropItem.cs" />
+    <Compile Include="ExampleDragDropSurface.cs" />
+    <Compile Include="ExhaustShakeC.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="ExtraComponentC.cs" />
+    <Compile Include="ExtraReceiverC.cs" />
+    <Compile Include="ExtraUpgradesC.cs" />
+    <Compile Include="FaucetLogicC.cs" />
+    <Compile Include="FixDoorScriptC.cs" />
+    <Compile Include="FontHolder.cs" />
+    <Compile Include="FootstepsC.cs" />
+    <Compile Include="FPSDisplay.cs" />
+    <Compile Include="FrameDirtC.cs" />
+    <Compile Include="FreeFall_Controller_Example_QR2.cs" />
+    <Compile Include="FuelSupplyRelayC.cs" />
+    <Compile Include="GerSignageHackC.cs" />
+    <Compile Include="GunSwayC.cs" />
+    <Compile Include="HandbrakeLogicC.cs" />
+    <Compile Include="HazardsLogicC.cs" />
+    <Compile Include="HeadBobberC.cs" />
+    <Compile Include="HeadlightLogicC.cs" />
+    <Compile Include="HeadLookController.cs" />
+    <Compile Include="HelpText.cs" />
+    <Compile Include="HoldingLogicC.cs" />
+    <Compile Include="HomeLogicC.cs" />
+    <Compile Include="HomeStorageClipboardC.cs" />
+    <Compile Include="HomeTriggersC.cs" />
+    <Compile Include="Hub_BuildingSpawnC.cs" />
+    <Compile Include="Hub_CitySpawnC.cs" />
+    <Compile Include="Hub_RoadSpawnC.cs" />
+    <Compile Include="IconRelayC.cs" />
+    <Compile Include="IgnitionLogicC.cs" />
+    <Compile Include="InvAttachmentPoint.cs" />
+    <Compile Include="InvBaseItem.cs" />
+    <Compile Include="InvDatabase.cs" />
+    <Compile Include="InventoryLogicC.cs" />
+    <Compile Include="InventoryRelayC.cs" />
+    <Compile Include="InvEquipment.cs" />
+    <Compile Include="InvGameItem.cs" />
+    <Compile Include="InvStat.cs" />
+    <Compile Include="JalopyCursor.cs" />
+    <Compile Include="JoyStick_Example.cs" />
+    <Compile Include="KeyJangleC.cs" />
+    <Compile Include="KeyUncleLogicC.cs" />
+    <Compile Include="LabelSettings.cs" />
+    <Compile Include="LagPosition.cs" />
+    <Compile Include="LagRotation.cs" />
+    <Compile Include="LaikaBuildingC.cs" />
+    <Compile Include="LaikaPlayerTriggerC.cs" />
+    <Compile Include="LangDemo.cs" />
+    <Compile Include="LetterLogicC.cs" />
+    <Compile Include="LightSwitchC.cs" />
+    <Compile Include="LoadLevelManagerC.cs" />
+    <Compile Include="LoadLevelOnClick.cs" />
+    <Compile Include="LocalFonts.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="LookAtTarget.cs" />
+    <Compile Include="LooseCashC.cs" />
+    <Compile Include="MagazineCatalogueRelayC.cs" />
+    <Compile Include="MagazineComponentRelayC.cs" />
+    <Compile Include="MagazineIndexRelayC.cs" />
+    <Compile Include="MagazineLogicC.cs" />
+    <Compile Include="MainMenuBookC.cs" />
+    <Compile Include="MainMenuC.cs" />
+    <Compile Include="MainMenuClickersC.cs" />
+    <Compile Include="MainMenuToolboxC.cs" />
+    <Compile Include="MaintManUncleLogicC.cs" />
+    <Compile Include="ManualStorageC.cs" />
+    <Compile Include="MapLogicC.cs" />
+    <Compile Include="MapPageTurnerC.cs" />
+    <Compile Include="MapRelayC.cs" />
+    <Compile Include="MapUncleLogicC.cs" />
+    <Compile Include="MemoryBankC.cs" />
+    <Compile Include="MenuMouseInteractionsC.cs" />
+    <Compile Include="MirrorLogicC.cs" />
+    <Compile Include="MirrorReflection.cs" />
+    <Compile Include="MotelLogicC.cs" />
+    <Compile Include="MotelParentC.cs" />
+    <Compile Include="MotelParkingTriggerC.cs" />
+    <Compile Include="MotelPlayerTriggerC.cs" />
+    <Compile Include="MotelRelayC.cs" />
+    <Compile Include="MouseLook.cs" />
+    <Compile Include="MultiplayerUI.cs" />
+    <Compile Include="MyExampleScript.cs" />
+    <Compile Include="NavigationFinder.cs" />
+    <Compile Include="NewspaperC.cs" />
+    <Compile Include="NonAffectedJoints.cs" />
+    <Compile Include="NPCAIC.cs" />
+    <Compile Include="ObjectInteractionsC.cs" />
+    <Compile Include="ObjectPickupC.cs" />
+    <Compile Include="OceanShoreC.cs" />
+    <Compile Include="OffRouteBlockerC.cs" />
+    <Compile Include="OilBottleC.cs" />
+    <Compile Include="OpenBriefcaseLogicC.cs" />
+    <Compile Include="OpenURLOnClick.cs" />
+    <Compile Include="OrbitCamera.cs" />
+    <Compile Include="OvenDialC.cs" />
+    <Compile Include="OvenDoorC.cs" />
+    <Compile Include="PadLockC.cs" />
+    <Compile Include="PageLogicC.cs" />
+    <Compile Include="PageReturnerC.cs" />
+    <Compile Include="PageTurnerC.cs" />
+    <Compile Include="PaintCanC.cs" />
+    <Compile Include="PaintCanRelayC.cs" />
+    <Compile Include="PanWithMouse.cs" />
+    <Compile Include="PassportLogicC.cs" />
+    <Compile Include="PenaltyTicketsC.cs" />
+    <Compile Include="PetrolStationDistanceCheckC.cs" />
+    <Compile Include="PlayIdleAnimations.cs" />
+    <Compile Include="PortableFuelC.cs" />
+    <Compile Include="PotHoleRelayC.cs" />
+    <Compile Include="PrefabManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PuddleLogicC.cs" />
+    <Compile Include="PushDrawC.cs" />
+    <Compile Include="qb_Group.cs" />
+    <Compile Include="qb_Object.cs" />
+    <Compile Include="qb_ObjectContainer.cs" />
+    <Compile Include="QuickRope2.cs" />
+    <Compile Include="QuickRope2Cloth.cs" />
+    <Compile Include="QuickRope2Helper.cs" />
+    <Compile Include="QuickRope2Line.cs" />
+    <Compile Include="QuickRope2Mesh.cs" />
+    <Compile Include="QuickRope2Prefab.cs" />
+    <Compile Include="QuickRopeSpline.cs" />
+    <Compile Include="Quintic.cs" />
+    <Compile Include="QuitScript.cs" />
+    <Compile Include="RadioFreqLogicC.cs" />
+    <Compile Include="RadioVolLogicC.cs" />
+    <Compile Include="RainCheck.cs" />
+    <Compile Include="RainLightningC.cs" />
+    <Compile Include="RainLogicC.cs" />
+    <Compile Include="RandomNames.cs" />
+    <Compile Include="RefuelLogicC.cs" />
+    <Compile Include="RepairKitC.cs" />
+    <Compile Include="ReverseDoorLogicC.cs" />
+    <Compile Include="RigidbodyControllerC.cs" />
+    <Compile Include="RigidbodyGetter.cs" />
+    <Compile Include="RigidbodyTweener.cs" />
+    <Compile Include="Rope.cs" />
+    <Compile Include="RopeAttachedObject.cs" />
+    <Compile Include="RopeAttachmentJointType.cs" />
+    <Compile Include="RopeColliderType.cs" />
+    <Compile Include="RopeConnectionC.cs" />
+    <Compile Include="RopeConstraint.cs" />
+    <Compile Include="RopeTubeRenderer.cs" />
+    <Compile Include="RoundaboutC.cs" />
+    <Compile Include="RouteConvoRelayC.cs" />
+    <Compile Include="RouteGeneratorC.cs" />
+    <Compile Include="SaveConverter.cs" />
+    <Compile Include="SaveFile.cs" />
+    <Compile Include="Scene1_LogicC.cs" />
+    <Compile Include="SceneReset.cs" />
+    <Compile Include="ScrapYardC.cs" />
+    <Compile Include="SeatLogicC.cs" />
+    <Compile Include="SetColorOnSelection.cs" />
+    <Compile Include="ShelfInventoryTweensC.cs" />
+    <Compile Include="ShopC.cs" />
+    <Compile Include="ShopGateC.cs" />
+    <Compile Include="ShopLeverC.cs" />
+    <Compile Include="SignRotRepeatC.cs" />
+    <Compile Include="SinMovement_QR2.cs" />
+    <Compile Include="SkiddingScriptC.cs" />
+    <Compile Include="SleepingBagLogicC.cs" />
+    <Compile Include="SmartAICar.cs" />
+    <Compile Include="SmartTextMesh.cs" />
+    <Compile Include="SoftMasking\Extensions\MaterialOps.cs" />
+    <Compile Include="SoftMasking\ISoftMask.cs" />
+    <Compile Include="SoftMasking\MaskChannel.cs" />
+    <Compile Include="SoftMasking\MaterialReplacements.cs" />
+    <Compile Include="SoftMasking\Samples\Draggable.cs" />
+    <Compile Include="SoftMasking\Samples\HorizontalFovSetter.cs" />
+    <Compile Include="SoftMasking\Samples\Item.cs" />
+    <Compile Include="SoftMasking\Samples\ItemsGenerator.cs" />
+    <Compile Include="SoftMasking\Samples\Minimap.cs" />
+    <Compile Include="SoftMasking\Samples\SoftMaskSampleChooser.cs" />
+    <Compile Include="SoftMasking\Samples\SoftMaskToggler.cs" />
+    <Compile Include="SoftMasking\Samples\Tooltip.cs" />
+    <Compile Include="SoftMasking\SoftMask.cs" />
+    <Compile Include="SoftMasking\SoftMaskable.cs" />
+    <Compile Include="SpaceWarClient.cs" />
+    <Compile Include="SpawnContinueC.cs" />
+    <Compile Include="SpawnDestinationC.cs" />
+    <Compile Include="SpeechBubbleTailC.cs" />
+    <Compile Include="SpeedometerLogicC.cs" />
+    <Compile Include="Spin.cs" />
+    <Compile Include="SpinWithMouse.cs" />
+    <Compile Include="SplashScreen.cs" />
+    <Compile Include="SpongeC.cs" />
+    <Compile Include="SteamManager.cs" />
+    <Compile Include="SteamScript.cs" />
+    <Compile Include="SteamStatsAndAchievements.cs" />
+    <Compile Include="StoreC.cs" />
+    <Compile Include="StreetLightC.cs" />
+    <Compile Include="SuitcaseRelayC.cs" />
+    <Compile Include="TEstTest.cs" />
+    <Compile Include="TestVehicle.cs" />
+    <Compile Include="TextureSorter.cs" />
+    <Compile Include="TitleFadeInC.cs" />
+    <Compile Include="ToiletFlushC.cs" />
+    <Compile Include="ToiletSeatLogicC.cs" />
+    <Compile Include="ToolRackC.cs" />
+    <Compile Include="TrafficLightC.cs" />
+    <Compile Include="TrafficLightManagerC.cs" />
+    <Compile Include="TrafficLightsRelayC.cs" />
+    <Compile Include="Tutorial5.cs" />
+    <Compile Include="TyreIronC.cs" />
+    <Compile Include="UICursor.cs" />
+    <Compile Include="UIEquipmentSlot.cs" />
+    <Compile Include="UIItemSlot.cs" />
+    <Compile Include="UIItemStorage.cs" />
+    <Compile Include="UISliderColors.cs" />
+    <Compile Include="UIStorageSlot.cs" />
+    <Compile Include="UncleBedTriggerC.cs" />
+    <Compile Include="UncleDoorTriggerC.cs" />
+    <Compile Include="UncleLogicC.cs" />
+    <Compile Include="UniqueGameLogic.cs" />
+    <Compile Include="UniqueObjectManager.cs" />
+    <Compile Include="UniqueSaveManager.cs" />
+    <Compile Include="UpdateText.cs" />
+    <Compile Include="UploadDownloadTexture.cs" />
+    <Compile Include="VfAnimCursor.cs" />
+    <Compile Include="VfCursorManager.cs" />
+    <Compile Include="VfCursorTarget.cs" />
+    <Compile Include="VfLabelManager.cs" />
+    <Compile Include="WalletC.cs" />
+    <Compile Include="WaterAnimateC.cs" />
+    <Compile Include="WaterBottleLogicC.cs" />
+    <Compile Include="WaterLidC.cs" />
+    <Compile Include="WaterSupplyRelayC.cs" />
+    <Compile Include="WeaponSway.cs" />
+    <Compile Include="WheelLogicC.cs" />
+    <Compile Include="WheelScriptPCC.cs" />
+    <Compile Include="WindowAutoYaw.cs" />
+    <Compile Include="WindowDragTilt.cs" />
+    <Compile Include="WindowLogicC.cs" />
+    <Compile Include="WindowWipersLogicC.cs" />
+    <Compile Include="WindowWiperSprayLogicC.cs" />
+    <Compile Include="WiperLogicC.cs" />
+    <Compile Include="XboxChangeSprite.cs" />
+    <Compile Include="XboxController.cs" />
+    <Compile Include="XboxEngineMagazine.cs" />
+    <Compile Include="XboxMapHolder.cs" />
+    <Compile Include="XboxMenu.cs" />
+    <Compile Include="XboxOneInputHelpers.cs" />
+    <Compile Include="XboxPause.cs" />
+    <Compile Include="XboxPromptAnimation.cs" />
+    <Compile Include="XboxSelector.cs" />
+    <Compile Include="XboxUIButton.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
